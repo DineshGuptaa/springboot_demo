@@ -83,18 +83,7 @@ If you are using Maven, add this to your list of dependencies:
 [source,xml]
 ----
 include::complete/pom.xml[tag=actuator]
-----
 
-Then restart the app:
-
-[subs="attributes"]
-----
-./gradlew build && java -jar build/libs/{project_id}-0.1.0.jar
-----
-
-If you are using Maven, execute:
-
-[subs="attributes"]
 ----
 mvn package && java -jar target/{project_id}-0.1.0.jar
 ----
